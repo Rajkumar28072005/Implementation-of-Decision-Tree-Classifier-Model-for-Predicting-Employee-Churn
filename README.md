@@ -5,7 +5,8 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 Equipments Required:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Jupyter notebook
-Algorithm
+
+Algorithm:
 1.Import Libraries and Load Dataset. 
 2. Preprocess the Data. 
 3. Split the Dataset.
