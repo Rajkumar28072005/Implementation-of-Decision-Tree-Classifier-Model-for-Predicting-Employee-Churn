@@ -8,18 +8,31 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Import Libraries and Load Dataset.
+2. Preprocess the Data.
+3. Split the Dataset.
+4. Train the Decision Tree Classifier.
+5. Make Predictions and Evaluate the Model 
 
 ## Program:
 ```
 /*
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
-Developed by: 
-RegisterNumber:  
+Developed by: KISHORE A
+RegisterNumber:  212223110022
 */
+```
+import pandas as pd
+data=pd.read_csv("Employee.csv")
+data
+```
+```
+data["left"].value_counts()
+```
+```
+from sklearn.preprocessing import LabelEncoder
+le=LabelEncoder()
+```
 ```
 
 ## Output:
